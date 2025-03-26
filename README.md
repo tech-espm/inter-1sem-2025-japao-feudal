@@ -9,7 +9,7 @@
 ### 2025-01
 
 ## Integrantes
-- [Nome](https://github.com/xxx)
+- [Rafael Nascimento](https://github.com/tec-Rafael)
 - [Nome](https://github.com/xxx)
 - [Nome](https://github.com/xxx)
 - [Nome](https://github.com/xxx)
