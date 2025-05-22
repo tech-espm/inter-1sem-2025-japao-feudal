@@ -11,9 +11,9 @@
 ## Integrantes
 - [Rafael Nascimento](https://github.com/tec-Rafael)
 - [Ricardo D'Ávila](https://github.com/tec-ricardo)
-- [Pedro Veiga](https://github.com/)
-- [Nome](https://github.com/xxx)
-- [Nome](https://github.com/xxx)
+- [Pedro Veiga](https://github.com/pedro-veiga18)
+- [Gustavo Santana](https://github.com/tec-guga)
+- [Mattheus Prado](https://github.com/MatGIT19)
 
 ## Descrição do Projeto
 
