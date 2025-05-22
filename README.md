@@ -10,8 +10,8 @@
 
 ## Integrantes
 - [Rafael Nascimento](https://github.com/tec-Rafael)
-- [Nome](https://github.com/xxx)
-- [Nome](https://github.com/xxx)
+- [Ricardo D'Ávila](https://github.com/tec-ricardo)
+- [Pedro Veiga](https://github.com/)
 - [Nome](https://github.com/xxx)
 - [Nome](https://github.com/xxx)
 
