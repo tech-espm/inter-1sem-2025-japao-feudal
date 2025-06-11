@@ -75,6 +75,40 @@ O projeto “Japão Feudal” tem como objetivo contar uma história original am
 
 O código foi implementado através da linguagem python e do modelo de programação por blocos do Minecraft Education.
 
+Código da bola de neve (shuriken):
+def on_item_interacted_snowball():
+	mobs.apply_effect(POISON, mobs.target(NEAREST_PLAYER), 10, 1)
+player.on_item_interacted(SNOWBALL, on item_interacted_snowball)
+
+Explicação:
+Trecho: “ def on_item_interacted_snowball(): ”, define o que deve acontecer quando um jogador interage com a bola de neve.
+Trecho: “ mobs.apply_effect(POISON, mobs.target(NEAREST_PLAYER), 10, 1) ”, aplica efeito de envenenamento no jogador mais próximo, com duração de 10 segundos e amplificação de nível 1. 
+Trecho: “ player.on_item_interacted(SNOWBALL, on_item_interacted_snowball) ”, relaciona a definição do que deve acontecer ao interagir com a bola de neve, com a bola de neve e o jogador.
+
+Código da carga de vento (bomba de fumaça):
+def on_item_interacted_wind_charge():
+	mobs.teleport_to_position(mobs.target(LOCAL_PLAYER), pos_local(1, 3, 5))
+	mobs.spawn_particle(SMOKE_CAMPFIRE, pos(0, 0, 0))
+	mobs.spawn_particle(SMOKE_BASIC, pos(0, 0, 0))
+	mobs.spawn_particle(SMOKE_CAMPFIRE_TALL, pos(0, 0, 0))
+	mobs.spawn_particle(SMOKE_LLAMA_SPIT, pos(0, 0, 0))
+player.on_item_interacted(WIND_CHARGE, on item_interacted_wind_charge)
+
+Explicação:
+Trecho: “ def on_item_interacted_wind_charge(): ”, define o que deve acontecer quando um jogador interage com a carga de vento.
+Trecho: “ mobs.teleport_to_position(mobs.target(LOCAL_PLAYER), pos_local(1, 3, 5)) ”, teleporta o jogador para uma posição, em relação a original, 1 bloco ao lado, 3 blocos a cima e 5 blocos a frente. 
+
+
+
+Trechos: “ mobs.spawn_particle(SMOKE_CAMPFIRE, pos(0, 0, 0)) ”
+	“ mobs.spawn_particle(SMOKE_BASIC, pos(0, 0, 0)) ”
+	“ mobs.spawn_particle(SMOKE_CAMPFIRE_TALL, pos(0, 0, 0)) ”
+	“ mobs.spawn_particle(SMOKE_LLAMA_SPIT, pos(0, 0, 0)) ”
+aplicam diferentes partículas para o efeito da carga de vento, e essas partículas são criadas no local que foi lançada a carga de vento, por isso a posição 0, 0, 0.
+
+Trecho:“player.on_item_interacted(WIND_CHARGE, on_item_interacted_wind_charge)”, relaciona a definição do que deve acontecer ao interagir com a carga de vento, com a carga de vento e o jogador.
+
+
 # Licença
 
 Este projeto é licenciado sob a [MIT License](https://github.com/tech-espm/inter-1sem-2025-japao-feudal/blob/main/LICENSE).
