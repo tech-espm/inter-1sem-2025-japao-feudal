@@ -108,6 +108,12 @@ aplicam diferentes partículas para o efeito da carga de vento, e essas partícu
 
 Trecho:“player.on_item_interacted(WIND_CHARGE, on_item_interacted_wind_charge)”, relaciona a definição do que deve acontecer ao interagir com a carga de vento, com a carga de vento e o jogador.
 
+## 4 CONCLUSÕES
+O projeto teve como principais objetivos aprender a trabalhar em equipe e introduzir o
+mundo da tecnologia, de forma engajadora, através do Minecraft, no começo do curso de Ciências de Dados e Negócios da ESPM. Nesse âmbito, conclui-se que nosso trabalho alcançou esses objetivos de forma completa devido a alguns fatores, em destaque o escopo do projeto e a sua natureza.
+Como o trabalho foi planejado para um semestre inteiro, ele apresentou diversos requerimentos, como a criação de texturas para itens e blocos, construção de um mapa inteiro, formulação de um roteiro, documentação, gravação de vídeo e codificação. Devido a quantidade de etapas que precisavam ser realizadas, foi necessária a cooperação de todos os integrantes do grupo, de forma que o trabalho ficasse dividido igualmente para todos e para que então ele tomasse forma constantemente ao longo das semanas. Foi uma experiencia única para conhecer os participantes do grupo e considerar diversas visões sobre o projeto, e isso não teria acontecido caso o projeto fosse menor em escala e tempo.
+Além disso, a natureza do trabalho foi essencial para introduzir o mundo da tecnologia, pois Minecraft é um jogo que é majoritariamente conhecido por todos os participantes devido a sua presença forte na infância de muitos. Ademais, ele é um jogo de fácil acesso e fácil manipulação, quando comparado com outras opções do mercado, então a escolha dele para a realização do projeto foi excelente.
+Devido a esses fatores principais, conclui-se que os principais objetivos foram alcançados e que o projeto foi realizado de forma completa, com a participação de todos os integrantes.
 
 # Licença
 
