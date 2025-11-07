@@ -107,6 +107,12 @@ Trechos: “ mobs.spawn_particle(SMOKE_CAMPFIRE, pos(0, 0, 0)) ”
 aplicam diferentes partículas para o efeito da carga de vento, e essas partículas são criadas no local que foi lançada a carga de vento, por isso a posição 0, 0, 0.
 
 Trecho:“player.on_item_interacted(WIND_CHARGE, on_item_interacted_wind_charge)”, relaciona a definição do que deve acontecer ao interagir com a carga de vento, com a carga de vento e o jogador.
+##Video do Projeto
+<video controls width="250">
+  <source src="https://github.com/tech-espm/inter-1sem-2025-japao-feudal/blob/main/Video_Japão.mp4" type="video/webm" />
+
+  <source src="https://github.com/tech-espm/inter-1sem-2025-japao-feudal/blob/main/Video_Japão.mp4" type="video/mp4" />
+</video>
 
 ## Conclusão
 O projeto teve como principais objetivos aprender a trabalhar em equipe e introduzir o
